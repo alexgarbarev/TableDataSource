@@ -23,6 +23,9 @@ typedef void(^SelectAction)(NSIndexPath *indexPath);
 @property (nonatomic, strong) SelectAction didSelectAction;
 
 
+@property (nonatomic, strong) NSString *reuseIdentifier;
+
+
 /* TMP: */
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSAttributedString *attributedTitle;

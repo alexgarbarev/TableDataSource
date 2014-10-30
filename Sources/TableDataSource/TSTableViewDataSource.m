@@ -372,7 +372,10 @@
 
         Class cellClass = item.cellClass ?: self.cellClass;
 
-        NSString *reuseIdentifier = [NSString stringWithFormat:@"%@-%@",NSStringFromClass([_forwardingDelegate class]), cellClass];
+        NSString *reuseIdentifier = item.reuseIdentifier;
+        if (reuseIdentifier.length == 0) {
+            reuseIdentifier = [NSString stringWithFormat:@"%@-%@",NSStringFromClass([_forwardingDelegate class]), cellClass];
+        }
         
         TSTableViewSimpleCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
         
