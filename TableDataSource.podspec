@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'TableDataSource'
-  spec.version = '1.0.0'
+  spec.version = '1.0.1'
   spec.license = 'MIT'
   
   spec.summary = 'Working with UITableView with flexible and easy way. (Auto animation supported)'
