@@ -13,6 +13,8 @@ Pod::Spec.new do |spec|
   spec.source_files = '**/*.{h,m}'
  
   spec.requires_arc = true
-  
+
+  spec.dependency 'ZZAutoDescription'
+
   spec.homepage = 'https://github.com/alexgarbarev/TableDataSource'
 end 
