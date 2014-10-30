@@ -11,7 +11,6 @@
 
 @implementation TSTableViewItem
 
-AUTO_DESCRIPTION
 
 - (id)init
 {

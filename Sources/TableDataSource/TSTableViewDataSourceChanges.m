@@ -10,6 +10,5 @@
 
 @implementation TSTableViewDataSourceChanges
 
-AUTO_DESCRIPTION
 
 @end

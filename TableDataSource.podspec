@@ -10,11 +10,9 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '5.0'
 
-  spec.source_files = '**/*.{h,m}'
+  spec.source_files = 'Sources/**/*.{h,m}'
  
   spec.requires_arc = true
-
-  spec.dependency 'ZZAutoDescription'
 
   spec.homepage = 'https://github.com/alexgarbarev/TableDataSource'
 end 
